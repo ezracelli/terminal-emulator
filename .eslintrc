@@ -1,0 +1,119 @@
+{
+  "root": true,
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended",
+    "plugin:nuxt/recommended"
+  ],
+  "rules": {
+    "array-bracket-newline": [
+      "error",
+      {
+        "minItems": 3,
+        "multiline": true
+      }
+    ],
+    "array-bracket-spacing": ["error", "always"],
+    "array-element-newline": [
+      "error",
+      {
+        "minItems": 3,
+        "multiline": true
+      }
+    ],
+    "arrow-body-style": ["warn", "as-needed"],
+    "brace-style": "off",
+    "comma-dangle": ["warn", "always-multiline"],
+    "curly": ["warn", "multi-line"],
+    "eol-last": ["error", "always"],
+    "import/order": 0,
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1,
+        "VariableDeclarator": 1
+      }
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 100,
+        "ignoreComments": true,
+        "ignorePattern": ".+=\".+\"",
+        "ignoreStrings": true,
+        "ignoreTrailingComments": true
+      }
+    ],
+    "no-console": 0,
+    "no-extend-native": [
+      "error",
+      {
+        "exceptions": ["Array"]
+      }
+    ],
+    "no-global-assign": [
+      "error",
+      {
+        "exceptions": ["self"]
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxEOF": 1
+      }
+    ],
+    "no-trailing-spaces": "warn",
+    "object-curly-newline": [
+      "error",
+      {
+        "ObjectExpression": {
+          "minProperties": 3,
+          "multiline": true
+        },
+        "ObjectPattern": {
+          "minProperties": 5,
+          "multiline": true
+        }
+      }
+    ],
+    "object-curly-spacing": ["error", "always"],
+    "object-property-newline": "error",
+    "padded-blocks": 0,
+    "quote-props": ["error", "consistent-as-needed"],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true,
+        "avoidEscape": true
+      }
+    ],
+    "semi": ["warn", "always"],
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": true,
+        "memberSyntaxSortOrder": ["all", "single", "multiple", "none"]
+      }
+    ],
+    "space-before-function-paren": ["warn", "always"],
+    "spaced-comment": [
+      "error",
+      "always",
+      {
+        "block": {
+          "markers": ["!"]
+        }
+      }
+    ]
+  }
+}
