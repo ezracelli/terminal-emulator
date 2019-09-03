@@ -9,7 +9,7 @@ $ yarn build
 $ yarn start
 ```
 
-> ⚠️ This project uses a forked version of `express-ws` from ezracelli/express-ws.
+> ⚠️ This project uses [a forked version of `express-ws`](https://github.com/ezracelli/express-ws).
 >
 > ```bash
 > $ git clone git@github.com:ezracelli/express-ws.git
