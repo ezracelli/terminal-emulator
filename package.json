@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "express-ws": "git+ssh://git@github.com:ezracelli/express-ws.git",
     "node-docker-api": "^1.1.22",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "nuxt": "^2.9.2",
     "sass-loader": "^8.0.0",
     "uuid": "^3.3.3"
